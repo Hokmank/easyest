@@ -1,7 +1,0 @@
-{
-  "compilerOptions": {
-    //...
-    "types": ["easyest/lib/src/components"],
-    "suppressImplicitAnyIndexErrors": true,
-  },
-}
