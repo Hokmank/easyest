@@ -1,0 +1,23 @@
+{
+  "hash": "d0d7a6a7",
+  "browserHash": "cda758a6",
+  "optimized": {
+    "vue": {
+      "src": "../../../../../node_modules/.pnpm/vue@3.2.36/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "faeb55ed",
+      "needsInterop": false
+    },
+    "easyest": {
+      "src": "../../../../../node_modules/.pnpm/easyest@1.0.7/node_modules/easyest/es/index.mjs",
+      "file": "easyest.js",
+      "fileHash": "605c38b7",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-GI3RQDG2": {
+      "file": "chunk-GI3RQDG2.js"
+    }
+  }
+}
