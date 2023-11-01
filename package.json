@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev:play": "cd play && pnpm dev",
     "build:easyest": "gulp -f packages/components/script/build/index.ts",
     "publish:easyest": "gulp -f packages/components/script/publish/index.ts"
   },

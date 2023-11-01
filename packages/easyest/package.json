@@ -1,6 +1,6 @@
 {
-  "name": "easyest-homan",
-  "version": "1.0.1",
+  "name": "easyest-hokman",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "module": "es/index.mjs",
   "files": [
