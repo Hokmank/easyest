@@ -9,7 +9,7 @@ npm run docs:build
 # 进入待发布的目录
 cd docs/.vitepress/dist
 
-git remote add easyest https://github.com/Hokmank/easyest.git
+git remote add easyest https://github.com/Hokmank/easyestui.git
 git add -A
 git commit -m 'deploy'
 
