@@ -1,1 +1,1 @@
-"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const l=require("./icon.vue.js"),s=e=>(e.install=n=>{const u=e.name;n.component(u,e)},e),t=s(l.default);exports.Icon=t;exports.default=t;
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const t=require("./icon.vue.js"),u=require("@easyest/utils"),e=u.withInstall(t.default);exports.Icon=e;exports.default=e;

@@ -1,6 +1,6 @@
 {
-  "name": "easyest-hokman",
-  "version": "1.0.2",
+  "name": "easyest",
+  "version": "1.0.7",
   "main": "lib/index.js",
   "module": "es/index.mjs",
   "files": [
@@ -14,15 +14,15 @@
   "sideEffects": [
     "**/*.css"
   ],
-  "scripts": {
-    "release": "release-it"
-  },
+  "author": "小月",
+  "license": "MIT",
+  "description": "",
+  "typings": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Hokmank/easyest"
+    "url": "https://github.com/qddidi/easyest"
   },
-  "author": "hokman",
-  "license": "ISC",
-  "description": "",
-  "typings": "lib/index.d.ts"
+  "dependencies": {
+    "@easyest/utils": "^1.0.2"
+  }
 }

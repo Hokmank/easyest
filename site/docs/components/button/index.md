@@ -6,7 +6,9 @@
 ::: details 显示代码
 
 ```html
+<ClientOnly>
 <ea-button>默认按钮</ea-button> <ea-button type="primary">默认按钮</ea-button>
+</ClientOnly>
 ```
 
 :::
