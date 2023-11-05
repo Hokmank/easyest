@@ -1,0 +1,4 @@
+**.d.ts
+/packages/kklibrary
+dist
+node_modules
