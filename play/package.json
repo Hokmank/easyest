@@ -15,9 +15,9 @@
     "vite": "^4.5.0"
   },
   "dependencies": {
-    "@kklibrary/components": "workspace:^",
+    "@kk-store/components": "workspace:^",
     "element-plus": "^2.4.2",
-    "kklibrary": "workspace:^",
+    "kk-store": "workspace:^",
     "unplugin-auto-import": "^0.16.7"
   }
 }

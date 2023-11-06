@@ -24,7 +24,7 @@ const delPath = async (path: string) => {
       }
     });
 
-    if (path != `${pkgPath}/kklibrary`) fs.rmdirSync(path);
+    if (path != `${pkgPath}/kk-store`) fs.rmdirSync(path);
   }
 };
 export default delPath;

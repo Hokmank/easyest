@@ -3,7 +3,7 @@
 - 初始化框架
 
 ```
-npm create kklibrary
+npm create kk-store
 ```
 
 - 安装 pnpm
@@ -23,11 +23,11 @@ pnpm install
 **注意:** 这里需要先执行一次打包,因为组件库文档引用了打包后的文件
 
 ```
-pnpm run kklibrary:build
+pnpm run kk-store:build
 ```
 
 - 启动测试项目
 
 ```
-pnpm run kklibrary:dev
+pnpm run kk-store:dev
 ```

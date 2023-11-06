@@ -6,13 +6,13 @@
 ```
 -- packages
 
-  -- cli 脚手架(create-kklibrary)
+  -- cli 脚手架(create-kk-store)
 
-  -- components 本地开发组件库(@kklibrary/components)
+  -- components 本地开发组件库(@kk-store/components)
 
-  -- kklibrary 打包后组件库,既要发布的组件库(kklibrary)
+  -- kk-store 打包后组件库,既要发布的组件库(kk-store)
 
-  -- utils 工具包(@kklibrary/utils)
+  -- utils 工具包(@kk-store/utils)
 
 -- play 测试开发组件库的Vue3项目目录
 

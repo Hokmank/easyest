@@ -1,10 +1,10 @@
 {
-  "name": "create-kklibrary",
+  "name": "create-kk-store",
   "version": "1.0.4",
   "description": "",
   "bin": "index.js",
   "keywords": [
-    "kklibrary",
+    "kk-store",
     "vue3组件库"
   ],
   "author": "hokman",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/qddidi/kklibrary"
+    "url": "https://github.com/qddidi/kk-store"
   },
   "dependencies": {
     "chalk": "^5.3.0",

@@ -19,7 +19,7 @@
     "vue": "^3.2.36"
   },
   "dependencies": {
-    "@kklibrary/components": "workspace:^",
-    "kklibrary": "workspace:^"
+    "@kk-store/components": "workspace:^",
+    "kk-store": "workspace:^"
   }
 }

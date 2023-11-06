@@ -1,10 +1,10 @@
 import DefaultTheme from "vitepress/theme";
-import kklibrary from "kklibrary";
+import kk-store from "kk-store";
 export default {
   ...DefaultTheme,
   enhanceApp: async ({ app }) => {
     // app is the Vue 3 app instance from `createApp()`. router is VitePress'
     // custom router. `siteData`` is a `ref`` of current site-level metadata.
-    app.use(kklibrary);
+    app.use(kk - store);
   },
 };

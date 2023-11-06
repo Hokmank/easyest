@@ -15,8 +15,8 @@ export default (remote, name, option) => {
       downSpinner.succeed(chalk.green('模板下载成功！'));
       console.log(chalk.green(`cd ${name}\r\n`));
       console.log(chalk.blue('pnpm install\r\n'));
-      console.log('pnpm run build:kklibrary\r\n');
-      console.log('pnpm run kklibrary:dev\r\n');
+      console.log('pnpm run build:kk-store\r\n');
+      console.log('pnpm run kk-store:dev\r\n');
       resolve();
     });
   });

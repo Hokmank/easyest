@@ -1,6 +1,6 @@
 export default {
-  title: 'kklibrary',
-  base: process.env.NODE_ENV === 'production' ? '/kklibraryui/' : '/',
+  title: 'kk-store',
+  base: process.env.NODE_ENV === 'production' ? '/kk-storeui/' : '/',
   themeConfig: {
     nav: [
       { text: '文档', link: '/guild/introduce' },
@@ -46,6 +46,6 @@ export default {
       ]
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/qddidi/kklibrary' }]
+    socialLinks: [{ icon: 'github', link: 'https://github.com/qddidi/kk-store' }]
   }
 };
