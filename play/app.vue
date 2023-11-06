@@ -4,7 +4,7 @@ const dataPickerVal = ref([]);
 
 <template>
   <div>
-    <ContentTitle title="标题" />
+    <content-title title="标题" />
     <el-form label-position="top">
       <el-form-item label="时间选择器" class="w-300px">
         <date-picker v-model="dataPickerVal" />
