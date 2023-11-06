@@ -1,5 +1,5 @@
 {
-  "name": "@kk-store/components",
+  "name": "@kk-element-plus/components",
   "version": "1.0.0",
   "description": "",
   "main": "./index.js",
@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@kk-store/utils": "workspace:^",
+    "@kk-element-plus/utils": "workspace:^",
     "@vueuse/core": "^10.5.0",
     "element-plus": "^2.4.2",
     "unplugin-auto-import": "^0.16.7",

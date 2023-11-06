@@ -1,11 +1,11 @@
 ---
 layout: home
 
-title: kk-store
+title: kk-element-plus
 titleTemplate: 一个Vue3组件库
 
 hero:
-  name: kk-store
+  name: kk-element-plus
   text: 一个Vue3组件库
   tagline: 让你的组件库开发更简单
 

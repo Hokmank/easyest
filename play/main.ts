@@ -1,6 +1,6 @@
 import { createApp } from 'vue';
 import App from './app.vue';
-import kkStore from '@kk-store/components';
+import kkStore from '@kk-element-plus/components';
 import ElementPlus from 'element-plus';
 import 'element-plus/dist/index.css';
 import 'virtual:uno.css';

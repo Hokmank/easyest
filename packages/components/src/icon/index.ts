@@ -1,4 +1,4 @@
 import _Icon from './icon.vue';
-import { withInstall } from '@kk-store/utils';
+import { withInstall } from '@kk-element-plus/utils';
 export const Icon = withInstall(_Icon);
 export default Icon;

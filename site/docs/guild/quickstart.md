@@ -3,7 +3,7 @@
 - 初始化框架
 
 ```
-npm create kk-store
+npm create kk-element-plus
 ```
 
 - 安装 pnpm
@@ -23,11 +23,11 @@ pnpm install
 **注意:** 这里需要先执行一次打包,因为组件库文档引用了打包后的文件
 
 ```
-pnpm run kk-store:build
+pnpm run kk-element-plus:build
 ```
 
 - 启动测试项目
 
 ```
-pnpm run kk-store:dev
+pnpm run kk-element-plus:dev
 ```

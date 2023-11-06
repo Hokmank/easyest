@@ -1,5 +1,5 @@
 import DefaultTheme from "vitepress/theme";
-import kk-store from "kk-store";
+import kk-el - plus from "kk-element-plus";
 export default {
   ...DefaultTheme,
   enhanceApp: async ({ app }) => {

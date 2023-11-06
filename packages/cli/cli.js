@@ -16,7 +16,7 @@ const optionDefinitions = [
 //帮助命令
 const helpSections = [
   {
-    header: 'create-kk-store',
+    header: 'create-kk-element-plus',
     content: '一个快速生成组件库搭建环境的脚手架'
   },
   {
@@ -49,7 +49,7 @@ const promptsOptions = [
     message: '请选择一个模板',
     choices: [
       { title: 'kitty-ui', value: 1 },
-      { title: 'kk-store', value: 2 }
+      { title: 'kk-element-plus', value: 2 }
     ]
   }
 ];
@@ -57,7 +57,7 @@ const options = commandLineArgs(optionDefinitions);
 
 const remoteList = {
   1: 'https://gitee.com/geeksdidi/kittyui.git',
-  2: 'https://github.com/qddidi/kk-store.git'
+  2: 'https://github.com/qddidi/kk-element-plus.git'
 };
 const getUserInfo = async () => {
   const res = await prompts(promptsOptions);

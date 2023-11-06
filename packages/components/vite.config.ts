@@ -17,7 +17,7 @@ export default defineConfig({
     //minify: false,
     rollupOptions: {
       //忽略不需要打包的文件
-      external: ['vue', /\.less/, '@kk-store/utils'],
+      external: ['vue', /\.less/, '@kk-element-plus/utils'],
       input: ['index.ts'],
       output: [
         {
@@ -29,7 +29,7 @@ export default defineConfig({
           preserveModules: true,
           exports: 'named',
           //配置打包根目录
-          dir: '../kk-store/es'
+          dir: '../kk-element-plus/es'
         },
         {
           //打包格式
@@ -40,13 +40,13 @@ export default defineConfig({
           preserveModules: true,
           exports: 'named',
           //配置打包根目录
-          dir: '../kk-store/lib'
+          dir: '../kk-element-plus/lib'
         }
       ]
     },
     lib: {
       entry: './index.ts',
-      name: 'kk-store'
+      name: 'kk-element-plus'
     }
   },
   plugins: [
@@ -61,7 +61,7 @@ export default defineConfig({
     }),
     dts({
       entryRoot: 'src',
-      outputDir: ['../kk-store/es/src', '../kk-store/lib/src'],
+      outputDir: ['../kk-element-plus/es/src', '../kk-element-plus/lib/src'],
       //指定使用的tsconfig.json为我们整个项目根目录下,如果不配置,你也可以在components下新建tsconfig.json
       tsConfigFilePath: '../../tsconfig.json'
     }),
