@@ -2,19 +2,26 @@
   "name": "kk-element-plus",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/index.js",
-  "module": "es/index.mjs",
+  "main": "lib/index.d.ts",
+  "module": "es/index.d.ts",
   "files": [
     "es",
     "lib"
   ],
+  "scripts": {
+    "release": "release-it"
+  },
   "keywords": [
-    "kk-element-plus",
+    "easyest",
     "vue3组件库"
   ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "kk",
-  "license": "ISC"
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hokmank/kk-element-plus.git"
+  }
 }

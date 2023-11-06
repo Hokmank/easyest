@@ -19,7 +19,6 @@
     "vue": "^3.2.36"
   },
   "dependencies": {
-    "@kk-element-plus/components": "workspace:^",
     "kk-element-plus": "workspace:^"
   }
 }

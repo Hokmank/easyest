@@ -1,6 +1,6 @@
 export default {
   title: 'kk-element-plus',
-  base: process.env.NODE_ENV === 'production' ? '/kk-element-plusui/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/kk-element-plus-ui/' : '/',
   themeConfig: {
     nav: [
       { text: '文档', link: '/guild/introduce' },
