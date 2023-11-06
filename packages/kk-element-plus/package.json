@@ -1,9 +1,9 @@
 {
   "name": "kk-element-plus",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
-  "main": "lib/index.d.ts",
-  "module": "es/index.d.ts",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
   "files": [
     "es",
     "lib"
