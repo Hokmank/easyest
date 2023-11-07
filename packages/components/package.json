@@ -1,6 +1,6 @@
 {
-  "name": "@kk-element-plus/components",
-  "version": "1.0.0",
+  "name": "kk-element-plus",
+  "version": "1.0.4",
   "description": "",
   "main": "./index.js",
   "scripts": {
@@ -8,8 +8,11 @@
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "easyest",
+    "vue3组件库"
+  ],
+  "author": "kk",
   "license": "ISC",
   "dependencies": {
     "@kk-element-plus/utils": "workspace:^",
