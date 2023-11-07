@@ -1,7 +1,13 @@
+<script lang="ts">
+import { defineComponent } from 'vue';
+export default defineComponent({
+  name: 'ea-button'
+});
+</script>
+
 <script lang="ts" setup>
 import './style/index.less';
 import { computed } from 'vue';
-defineOptions({ name: 'ea-button' });
 type ButtonProps = {
   type?: string;
   size?: string;

@@ -1,10 +1,15 @@
+<script lang="ts">
+import { defineComponent } from 'vue';
+export default defineComponent({
+  name: 'date-picker'
+});
+</script>
+
 <script setup lang="ts">
 import { ref } from 'vue';
 import { set } from '@vueuse/core';
 import { ElDatePicker } from 'element-plus';
 import 'element-plus/es/components/date-picker/style/css';
-
-defineOptions({ name: 'date-picker' });
 
 const props = defineProps({
   modelValue: Array
@@ -58,17 +63,7 @@ const changeDatePicker = (value: Array<string>) => {
 </script>
 
 <template>
-  <el-date-picker
-    :model-value="pickerValue"
-    type="daterange"
-    start-placeholder="开始时间"
-    end-placeholder="结束时间"
-    format="YYYY-MM-DD"
-    value-format="YYYY-MM-DD"
-    style="width: 100%"
-    :shortcuts="shortcuts"
-    @update:modelValue="changeDatePicker"
-  />
+  <el-date-picker :model-value="pickerValue" type="daterange" start-placeholder="开始时间" end-placeholder="结束时间" format="YYYY-MM-DD" value-format="YYYY-MM-DD" style="width: 100%" :shortcuts="shortcuts" @update:modelValue="changeDatePicker" />
 </template>
 
 <style scoped></style>

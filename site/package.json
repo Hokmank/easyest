@@ -15,11 +15,12 @@
   "license": "ISC",
   "devDependencies": {
     "less": "^4.2.0",
+    "unplugin-auto-import": "^0.16.7",
+    "unplugin-vue-components": "^0.25.2",
     "vitepress": "1.0.0-alpha.46",
     "vue": "^3.2.36"
   },
   "dependencies": {
-    "@kk-element-plus/components": "workspace:^",
     "kk-element-plus": "workspace:^"
   }
 }
