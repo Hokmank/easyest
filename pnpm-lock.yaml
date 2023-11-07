@@ -148,6 +148,8 @@ importers:
 
   packages/utils: {}
 
+  packages/utils/dist: {}
+
   play:
     dependencies:
       '@kk-element-plus/components':
@@ -175,6 +177,9 @@ importers:
 
   site:
     dependencies:
+      '@kk-element-plus/components':
+        specifier: workspace:^
+        version: link:../packages/components
       kk-element-plus:
         specifier: workspace:^
         version: link:../packages/kk-element-plus
